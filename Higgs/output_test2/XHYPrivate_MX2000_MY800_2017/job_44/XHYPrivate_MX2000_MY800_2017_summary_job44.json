@@ -1,0 +1,422 @@
+{
+    "config": {
+        "branches": [
+            "nPhoton",
+            "Photon_pt",
+            "Photon_eta",
+            "Photon_phi",
+            "Photon_mass",
+            "Photon_vidNestedWPBitmap",
+            "PhotOn_energyErr",
+            "Photon_pixelSeed",
+            "Photon_mvaID",
+            "Photon_electronVeto",
+            "Photon_sieie",
+            "Photon_cutBased",
+            "Photon_r9",
+            "Photon_hoe",
+            "Photon_pfRelIso03_chg",
+            "Photon_pfRelIso03_all",
+            "Photon_isScEtaEB",
+            "Photon_isScEtaEE",
+            "Photon_trkSumPtHollowConeDR03",
+            "Photon_photonIso",
+            "Photon_chargedHadronIso",
+            "Photon_genPartFlav",
+            "GenPart_eta",
+            "GenPart_genPartIdxMother",
+            "GenPart_mass",
+            "GenPart_pdgId",
+            "GenPart_phi",
+            "GenPart_pt",
+            "GenPart_status",
+            "GenPart_statusFlags",
+            "Jet_pt",
+            "Jet_eta",
+            "Jet_phi",
+            "Jet_mass",
+            "Jet_btagDeepFlavB",
+            "Jet_jetId",
+            "Jet_hadronFlavour",
+            "Muon_pt",
+            "Muon_eta",
+            "Muon_phi",
+            "Muon_mass",
+            "Muon_charge",
+            "Muon_pfRelIso03_all",
+            "Muon_dxy",
+            "Muon_dz",
+            "Muon_tightId",
+            "Muon_isGlobal",
+            "Muon_mediumId",
+            "Electron_pt",
+            "Electron_eta",
+            "Electron_phi",
+            "Electron_mass",
+            "Electron_charge",
+            "Electron_mvaFall17V2Iso_WP90",
+            "Electron_mvaFall17V2noIso_WP90",
+            "Electron_pfRelIso03_all",
+            "Electron_dxy",
+            "Electron_dz",
+            "Electron_mvaFall17V2Iso_WP80",
+            "nFatJet",
+            "FatJet_pt",
+            "FatJet_eta",
+            "FatJet_phi",
+            "FatJet_mass",
+            "FatJet_msoftdrop",
+            "FatJet_jetId",
+            "FatJet_tau1",
+            "FatJet_tau2",
+            "FatJet_tau3",
+            "FatJet_tau4",
+            "FatJet_deepTagMD_HbbvsQCD",
+            "FatJet_deepTagMD_H4qvsQCD",
+            "FatJet_particleNetMD_Xbb",
+            "FatJet_particleNetMD_Xcc",
+            "FatJet_particleNetMD_Xqq",
+            "FatJet_particleNet_mass",
+            "MET_pt",
+            "MET_phi",
+            "genWeight",
+            "run",
+            "event",
+            "fixedGridRhoAll",
+            "fixedGridRhoFastjetAll",
+            "luminosityBlock"
+        ],
+        "dir": "/uscms_data/d3/idutta/HiggsDNA/output_test2/XHYPrivate_MX2000_MY800_2017/job_44",
+        "files": [
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_914.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_915.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_916.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_917.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_918.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_919.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_92.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_920.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_921.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_922.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_923.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_924.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_925.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_926.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_927.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_928.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_929.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_93.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_930.root",
+            "root://cmsxrootd.fnal.gov///store/user/lpcpfnano/cmantill/v2_2/2017/XHYPrivate/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/NMSSM_XToYH_MX2000_MY800_HTo2bYTo2g/PrivateMC/220705_021105/0000/nanov9_931.root"
+        ],
+        "function": {
+            "function_name": "run_analysis",
+            "module_name": "higgs_dna.analysis"
+        },
+        "job_id": 44,
+        "name": "XHYPrivate_MX2000_MY800_2017_44",
+        "output_dir": "/uscms_data/d3/idutta/HiggsDNA/output_test2/XHYPrivate_MX2000_MY800_2017/job_44",
+        "output_name": "output_job_44",
+        "sample": {
+            "bf": 1.0,
+            "files": null,
+            "fpo": null,
+            "is_data": false,
+            "is_prepped": false,
+            "lumi": 41.5,
+            "name": "XHYPrivate_MX2000_MY800_2017",
+            "norm_factor": 1.0,
+            "process": "XHYPrivate_MX2000_MY800",
+            "process_id": 17,
+            "systematics": {
+                "weights": {
+                    "dummy_ttH_theory_sf": {
+                        "branches": {
+                            "central": "genWeight",
+                            "down": "genWeight",
+                            "up": "genWeight"
+                        },
+                        "method": "from_branch",
+                        "modify_central_weight": false,
+                        "type": "event"
+                    }
+                }
+            },
+            "xs": 1.0,
+            "year": "2017"
+        },
+        "summary_file": "XHYPrivate_MX2000_MY800_2017_summary_job44.json",
+        "systematics": {
+            "independent_collections": {},
+            "weights": {}
+        },
+        "tag_sequence": [
+            {
+                "kwargs": {
+                    "is_data": false,
+                    "name": "diphoton_tagger",
+                    "options": {
+                        "cutflow": true,
+                        "gen_info": {
+                            "calculate": true
+                        }
+                    },
+                    "year": "2017"
+                },
+                "module_name": "higgs_dna.taggers.diphoton_tagger",
+                "tagger": "DiphotonTagger"
+            },
+            {
+                "kwargs": {
+                    "is_data": false,
+                    "options": {
+                        "cutflow": true,
+                        "genHiggsAnalysis": false
+                    },
+                    "year": "2017"
+                },
+                "module_name": "higgs_dna.taggers.yhggbb_tagger",
+                "tagger": "YHggbbTagger"
+            }
+        ],
+        "variables_of_interest": [
+            [
+                "Diphoton",
+                "mass"
+            ],
+            [
+                "Diphoton",
+                "pt"
+            ],
+            [
+                "Diphoton",
+                "eta"
+            ],
+            [
+                "Diphoton",
+                "phi"
+            ],
+            [
+                "Diphoton",
+                "dR"
+            ],
+            [
+                "Diphoton",
+                "DiphoCosThetaStar"
+            ],
+            [
+                "Diphoton",
+                "lead_pt_mgg"
+            ],
+            [
+                "Diphoton",
+                "sublead_pt_mgg"
+            ],
+            [
+                "Diphoton",
+                "lead_vidNestedWPBitmap"
+            ],
+            [
+                "Diphoton",
+                "sublead_vidNestedWPBitmap"
+            ],
+            [
+                "Diphoton",
+                "lead_pho_mvaID"
+            ],
+            [
+                "Diphoton",
+                "sublead_pho_mvaID"
+            ],
+            [
+                "Diphoton",
+                "lead_pho_sigEoE"
+            ],
+            [
+                "Diphoton",
+                "sublead_pho_sigEoE"
+            ],
+            [
+                "LeadPhoton",
+                "pt"
+            ],
+            [
+                "LeadPhoton",
+                "eta"
+            ],
+            [
+                "LeadPhoton",
+                "phi"
+            ],
+            [
+                "LeadPhoton",
+                "mass"
+            ],
+            [
+                "LeadPhoton",
+                "mvaID"
+            ],
+            [
+                "LeadPhoton",
+                "genPartFlav"
+            ],
+            [
+                "LeadPhoton",
+                "pixelSeed"
+            ],
+            [
+                "LeadPhoton",
+                "sieie"
+            ],
+            [
+                "LeadPhoton",
+                "cutBased"
+            ],
+            [
+                "LeadPhoton",
+                "hoe"
+            ],
+            [
+                "SubleadPhoton",
+                "pt"
+            ],
+            [
+                "SubleadPhoton",
+                "eta"
+            ],
+            [
+                "SubleadPhoton",
+                "phi"
+            ],
+            [
+                "SubleadPhoton",
+                "mass"
+            ],
+            [
+                "SubleadPhoton",
+                "mvaID"
+            ],
+            [
+                "SubleadPhoton",
+                "genPartFlav"
+            ],
+            [
+                "SubleadPhoton",
+                "pixelSeed"
+            ],
+            [
+                "SubleadPhoton",
+                "sieie"
+            ],
+            [
+                "SubleadPhoton",
+                "cutBased"
+            ],
+            [
+                "SubleadPhoton",
+                "hoe"
+            ],
+            "fathbbjet_pt",
+            "fathbbjet_eta",
+            "fathbbjet_phi",
+            "fathbbjet_mass",
+            "fathbbjet_deepTagMD_HbbvsQCD",
+            "fathbbjet_msoftdrop",
+            "fathbbjet_tau1",
+            "fathbbjet_tau2",
+            "fathbbjet_tau3",
+            "fathbbjet_tau4",
+            "bjet_1_pt",
+            "bjet_1_eta",
+            "bjet_1_phi",
+            "bjet_1_mass",
+            "bjet_1_btagDeepFlavB",
+            "bjet_1_jetId",
+            "bjet_1_hadronFlavour",
+            "bjet_2_pt",
+            "bjet_2_eta",
+            "bjet_2_phi",
+            "bjet_2_mass",
+            "bjet_2_btagDeepFlavB",
+            "bjet_2_jetId",
+            "bjet_2_hadronFlavour",
+            "GenHggHiggs_pt",
+            "GenHggHiggs_eta",
+            "GenHggHiggs_phi",
+            "GenHggHiggs_mass",
+            "GenHggHiggs_dR",
+            "GenHggLeadPhoton_pt",
+            "GenHggLeadPhoton_eta",
+            "GenHggLeadPhoton_phi",
+            "GenHggLeadPhoton_mass",
+            "GenHggSubleadPhoton_pt",
+            "GenHggSubleadPhoton_eta",
+            "GenHggSubleadPhoton_phi",
+            "GenHggSubleadPhoton_mass",
+            "GenOtherHiggs_pt",
+            "GenOtherHiggs_eta",
+            "GenOtherHiggs_phi",
+            "GenOtherHiggs_mass",
+            "GenOtherHiggs_dR",
+            "GenOtherHiggsLeadprod_pt",
+            "GenOtherHiggsLeadprod_eta",
+            "GenOtherHiggsLeadprod_phi",
+            "GenOtherHiggsLeadprod_mass",
+            "GenOtherHiggsSubleadprod_pt",
+            "GenOtherHiggsSubleadprod_eta",
+            "GenOtherHiggsSubleadprod_phi",
+            "GenOtherHiggsSubleadprod_mass",
+            "deltaRLeadPhotonfromGen",
+            "deltaRSubleadPhotonfromGen",
+            "deltaRFatHbbJetGenOtherHiggs",
+            "deltaRFatH4qJetGenOtherHiggs",
+            "n_electrons",
+            "n_muons",
+            "n_leptons",
+            "n_jets",
+            "n_bjets",
+            "n_fatjets",
+            "category",
+            "minPhoJetDr",
+            "maxPhoJetDr",
+            "cosThetaStar_CS",
+            "tag_idx",
+            "weight_central",
+            "event",
+            "fixedGridRhoFastjetAll",
+            "photon_pt_cut",
+            "photon_eta_cut",
+            "photon_e_veto_cut",
+            "photon_r9_iso_cut",
+            "photon_hoe_cut",
+            "photon_mvaID_cut",
+            "photon_sigma_ieie_cut",
+            "photon_all_cuts",
+            "dipho_lead_pt_cut",
+            "dipho_lead_pt_mgg_cut",
+            "dipho_sublead_pt_mgg_cut",
+            "dipho_mass_cut",
+            "dipho_all_cuts",
+            "dipho_presel_cut",
+            "dipho_trigger_cut",
+            "dipho_all_presel_cut",
+            "fathbbjet_awayphoton_cut",
+            "category_cut",
+            "all_cuts"
+        ]
+    },
+    "n_events": 8000,
+    "n_events_selected": {
+        "nominal": 8000
+    },
+    "outputs": {
+        "nominal": "output_job_44_nominal.parquet"
+    },
+    "successful": true,
+    "sum_weights": 813360000000.0001,
+    "time": 233.35280203819275,
+    "time_frac_load": 0.4382632924238154,
+    "time_frac_samples": 5.2313526902326226e-05,
+    "time_frac_syst": 4.556820631701398e-07,
+    "time_frac_taggers": 0.5315757044059769
+}

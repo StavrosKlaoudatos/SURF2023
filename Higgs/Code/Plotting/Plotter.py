@@ -11,30 +11,34 @@ mpl.rcParams.update(mpl.rcParamsDefault)
 path_to_parquets = '/Users/stavrosklaoudatos/Desktop/SURF2023/Higgs/data/Parquets'
 
 
-p = ["fathbbjet_tau1", "fathbbjet_tau2","fathbbjet_tau3"]
+ 
+
+p = [[['LeadPhoton_eta', 'SubleadPhoton_eta', 'LeadPhoton_phi', 'SubleadPhoton_phi']], [['Diphoton_eta', 'fathbbjet_eta', 'Diphoton_phi', 'fathbbjet_phi']], [['LeadPhoton_eta', 'fathbbjet_eta', 'LeadPhoton_phi', 'fathbbjet_phi']], [['SubleadPhoton_eta', 'fathbbjet_eta', 'SubleadPhoton_phi', 'fathbbjet_phi']]]
+
+ranges= [(0, 8), (0, 8), (0, 8), (0, 8)]
+
+titles = ['Angular Distance between two leading Photons [rad]', 'Angular Distance between the Diphoton System and the Fat Hbb Jet [rad]', 'Angular Distance between the Lead Photon and the Fat Hbb Jet [rad]', 'Angular Distance between the Sublead Photon and the Fat Hbb Jet [rad]']
+
+xaxis = ['Angular Distnace [rad]', 'Angular Distance [rad]', 'Angular Distance [rad]', 'Angular Distance [rad]']
+
+location = ['Leading_Photons_dR', 'Diphoton_fathbbjet_dR', 'Lead_fathbbjet_dR', 'Sublead_fathbbjet_dRs']
 
 
-ranges= [(0,1),(0,1)]
-titles = ["Tau 2 Over Tau 1 Ratio for Subjetiness","Tau 3 Over Tau 2 Ratio for Subjetiness"]
-xaxis = ["Tau2/Tau1","Tau3/Tau2"]
-location = ['T2T1','T3T2']
 
 
 
-
-
-def GeneratePlots(quants, ranges, titles, xaxis, location,bins=300,MX = ['MX1000','MX2000'],path='/Users/stavrosklaoudatos/Desktop/SURF2023/Higgs/Plots/TauPlots/'):
+def GeneratePlots(quants, ranges, titles, xaxis, location,bins=300,MX = ['MX1000','MX2000'],path='/Users/stavrosklaoudatos/Desktop/SURF2023/Higgs/Plots/dR_Distributions/'):
 
     def filter_df(x):
     
-    
+
         # Filter the DataFrame to only include rows where x >= 0.1
-        mask = x < 1 
+        mask = x > 0.7
 
         # Apply the mask to the DataFrame
         df_filtered = x.loc[mask]
 
-        mask2 = x > 0
+        mask2 = x < 30
 
         df_filtered = df_filtered.loc[mask2]
 
@@ -123,7 +127,7 @@ def GeneratePlots(quants, ranges, titles, xaxis, location,bins=300,MX = ['MX1000
                 
                 
                 #Setup Plotting
-                x = df[quants[k+1]]/ df[quants[k]] 
+                x = np.sqrt((df[quants[k][0][0]]- df[quants[k][0][1]] )**2 + (df[quants[k][0][2]] - df[quants[k][0][3]] )**2)
                 #========================================================    
 
 
@@ -158,7 +162,8 @@ def GeneratePlots(quants, ranges, titles, xaxis, location,bins=300,MX = ['MX1000
             plt.yscale('log')
         
             plt.savefig(path + mx +'/'+location[k]+mx+'img.png')
-            plt.show()
+            #plt.show()
+
             plt.clf()
 
 

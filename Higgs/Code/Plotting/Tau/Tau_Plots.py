@@ -10,16 +10,16 @@ mpl.rcParams.update(mpl.rcParamsDefault)
 
 
 
-def filter_df(x):
+def filter_df(x,a,b):
     # Perform the calculation
     
     # Filter the DataFrame to only include rows where x >= 0.1
-    mask = x < 1 
+    mask = x < b 
 
     # Apply the mask to the DataFrame
     df_filtered = x.loc[mask]
 
-    mask2 = x > 0
+    mask2 = x > a
 
     df_filtered = df_filtered.loc[mask2]
 
